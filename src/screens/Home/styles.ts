@@ -20,17 +20,19 @@ const PickerContainer = styled.View`
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 15px;
-  border-color: #fff;
+  border-color: #b16904;
   border-width: 2px;
-  border-radius: 50px;
+  border-radius: 10px;
+  background-color: #e0a655;
 `;
 
 const Picker = styled.Picker`
   justify-content: center;
   align-items: center;       
   text-align: center;
-  color: #fff;     
-  width: 250px;   
+  color: #ffffff;   
+  width: 250px;
+  font-size: 24px;
   font-weight: bold;
 `;
 
@@ -41,7 +43,7 @@ const Button = styled.TouchableOpacity`
   height: 40px;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: #f99000;
+  background-color: #e0a655;
 `;
 
 const ButtonTitle = styled.Text`
