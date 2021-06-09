@@ -50,6 +50,7 @@ const Home = () => {
       />
       <PickerContainer>
         <Picker
+          selectedValue={pokeName.toString()}
           onValueChange={(itemValue, itemIndex) => {
             setPokeName(itemValue)
           }}>
