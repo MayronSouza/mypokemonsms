@@ -26,6 +26,7 @@ const Home = () => {
     PokeAPI.get('/pokemon?limit=2000&offset=20')
       .then(response => {
         setList(response.data.results);
+        return () => setList([]);
       })
       .catch(error => console.log(error));
 
